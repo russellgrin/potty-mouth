@@ -2,7 +2,7 @@
   "name": "Potty Mouth - Insult Generator",
   "short_name": "Potty Mouth",
   "description": "The Insult Slot Machine - spin to generate hilarious insults!",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#1a1a2e",
   "theme_color": "#1a1a2e",

@@ -1,20 +1,20 @@
-const CACHE_NAME = 'potty-mouth-v1';
+const CACHE_NAME = 'potty-mouth-v2';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/words.json',
-  '/manifest.json',
-  '/sounds/fart1.mp3',
-  '/sounds/fart2.mp3',
-  '/sounds/fart3.mp3',
-  '/sounds/burp1.mp3',
-  '/sounds/burp2.mp3',
-  '/sounds/burp3.mp3',
-  '/sounds/ding.mp3',
-  '/sounds/bell.mp3',
-  '/sounds/slot_machine.mp3',
-  '/sounds/crowd_cheer.mp3',
-  '/sounds/applause.mp3'
+  './',
+  './index.html',
+  './words.json',
+  './manifest.json',
+  './sounds/fart1.mp3',
+  './sounds/fart2.mp3',
+  './sounds/fart3.mp3',
+  './sounds/burp1.mp3',
+  './sounds/burp2.mp3',
+  './sounds/burp3.mp3',
+  './sounds/ding.mp3',
+  './sounds/bell.mp3',
+  './sounds/slot_machine.mp3',
+  './sounds/crowd_cheer.mp3',
+  './sounds/applause.mp3'
 ];
 
 // Install event - cache assets
