@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#ff8c00"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <!-- Slot machine frame -->
+  <rect x="30" y="50" width="132" height="92" rx="10" fill="#2d2d4d" stroke="url(#gold)" stroke-width="4"/>
+  <!-- Wheels -->
+  <rect x="42" y="62" width="50" height="40" rx="6" fill="#0a0a15"/>
+  <rect x="100" y="62" width="50" height="40" rx="6" fill="#0a0a15"/>
+  <!-- Text in wheels -->
+  <text x="67" y="88" font-family="Arial Black" font-size="14" fill="#ff6b6b" text-anchor="middle">F*</text>
+  <text x="125" y="88" font-family="Arial Black" font-size="14" fill="#4ecdc4" text-anchor="middle">CK</text>
+  <!-- Spin button -->
+  <rect x="55" y="112" width="82" height="22" rx="6" fill="#ff4b2b"/>
+  <text x="96" y="127" font-family="Arial Black" font-size="10" fill="white" text-anchor="middle">SPIN!</text>
+  <!-- Lights -->
+  <circle cx="50" cy="45" r="6" fill="#f1c40f"/>
+  <circle cx="96" cy="45" r="6" fill="#e74c3c"/>
+  <circle cx="142" cy="45" r="6" fill="#2ecc71"/>
+  <!-- Title -->
+  <text x="96" y="170" font-family="Arial Black" font-size="16" fill="url(#gold)" text-anchor="middle">POTTY MOUTH</text>
+</svg>
